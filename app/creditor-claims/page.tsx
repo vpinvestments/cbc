@@ -119,7 +119,7 @@ export default function CreditorClaimsPage() {
               </div>
               <Button variant="outline" size="sm" asChild>
                 <a
-                  href="https://cbc-finance.ro/documente-insolventa/TD-CBC-CREATIVE-FINANCE.pdf"
+                  href="http://files.cbc-finance.ro/TD-CBC-CREATIVE-FINANCE.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -133,7 +133,7 @@ export default function CreditorClaimsPage() {
             <div className="border rounded-lg overflow-hidden bg-white">
               <div className="h-[600px] sm:h-[800px] w-full">
                 <iframe
-                  src="https://cbc-finance.ro/documente-insolventa/TD-CBC-CREATIVE-FINANCE.pdf"
+                  src="http://files.cbc-finance.ro/TD-CBC-CREATIVE-FINANCE.pdf"
                   className="w-full h-full border-0"
                   title="Final Table of Creditors - CBC Creative Finance"
                 >
@@ -144,7 +144,7 @@ export default function CreditorClaimsPage() {
                         <p className="text-slate-600 mb-2">Unable to display PDF in browser</p>
                         <Button variant="outline" asChild>
                           <a
-                            href="https://cbc-finance.ro/documente-insolventa/TD-CBC-CREATIVE-FINANCE.pdf"
+                            href="http://files.cbc-finance.ro/TD-CBC-CREATIVE-FINANCE.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

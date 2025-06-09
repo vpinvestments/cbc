@@ -113,7 +113,7 @@ export default function VotingDocumentationPageRO() {
                 Descărcați formularul oficial de vot pentru adunarea creditorilor.
               </p>
               <Button variant="outline" size="sm" asChild>
-                <a href="http://cbc-finance.ro/documente-insolventa/Buletin_de_Vot_CBC_Creative_Finance.docx" download>
+                <a href="http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx" download>
                   <Download className="h-4 w-4 mr-2" />
                   Descarcă DOCX
                 </a>

@@ -136,7 +136,7 @@ export default function LegalDocumentsPageRO() {
                         <p className="text-slate-600 mb-2">Nu se poate afișa PDF în browser</p>
                         <Button variant="outline" asChild>
                           <a
-                            href="https://cbc-finance.ro/documente-insolventa/legea-nr-85-2014-privind-procedurile-de-prevenire-a-insolventei-si-de-insolventa.pdf"
+                            href="http://files.cbc-finance.ro/legea-nr-85-2014-privind-procedurile-de-prevenire-a-insolventei-si-de-insolventa.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

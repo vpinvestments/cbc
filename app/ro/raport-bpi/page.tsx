@@ -96,7 +96,7 @@ export default function BPIReportPageRO() {
               <p className="text-sm text-slate-600">Puteți vizualiza și descărca publicația oficială BPI mai jos.</p>
               <Button variant="outline" size="sm" asChild>
                 <a
-                  href="http://cbc-finance.ro/documente-insolventa/bpi-ro-ro-na-2025-06-06-bpiroro-na-no13137.pdf"
+                  href="http://files.cbc-finance.ro/bpi-ro-ro-na-2025-06-06-bpiroro-na-no13137.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   download
@@ -120,7 +120,7 @@ export default function BPIReportPageRO() {
             <div className="border rounded-lg overflow-hidden bg-white">
               <div className="h-[600px] sm:h-[800px] w-full">
                 <iframe
-                  src="http://cbc-finance.ro/documente-insolventa/bpi-ro-ro-na-2025-06-06-bpiroro-na-no13137.pdf"
+                  src="http://files.cbc-finance.ro/bpi-ro-ro-na-2025-06-06-bpiroro-na-no13137.pdf"
                   className="w-full h-full border-0"
                   title="Publicația BPI - CBC Creative Finance"
                 >
@@ -131,7 +131,7 @@ export default function BPIReportPageRO() {
                         <p className="text-slate-600 mb-2">Nu se poate afișa PDF în browser</p>
                         <Button variant="outline" asChild>
                           <a
-                            href="http://cbc-finance.ro/documente-insolventa/bpi-ro-ro-na-2025-06-06-bpiroro-na-no13137.pdf"
+                            href="http://files.cbc-finance.ro/bpi-ro-ro-na-2025-06-06-bpiroro-na-no13137.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

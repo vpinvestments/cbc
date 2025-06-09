@@ -103,7 +103,7 @@ export default function MeetingAgendaPage() {
               <p className="text-sm text-slate-600">Download the complete meeting agenda and convocation document.</p>
               <Button variant="outline" size="sm" asChild>
                 <a
-                  href="https://cbc-finance.ro/documente-insolventa/16062025Convocator_CBC_Creative_Finance_diacritice.pdf"
+                  href="http://files.cbc-finance.ro/16062025Convocator_CBC_Creative_Finance_diacritice.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   download
@@ -129,7 +129,7 @@ export default function MeetingAgendaPage() {
             <div className="border rounded-lg overflow-hidden bg-white">
               <div className="h-[600px] sm:h-[800px] w-full">
                 <iframe
-                  src="https://cbc-finance.ro/documente-insolventa/16062025Convocator_CBC_Creative_Finance_diacritice.pdf"
+                  src="http://files.cbc-finance.ro/16062025Convocator_CBC_Creative_Finance_diacritice.pdf"
                   className="w-full h-full border-0"
                   title="Meeting Agenda - CBC Creative Finance"
                 >
@@ -140,7 +140,7 @@ export default function MeetingAgendaPage() {
                         <p className="text-slate-600 mb-2">Unable to display PDF in browser</p>
                         <Button variant="outline" asChild>
                           <a
-                            href="https://cbc-finance.ro/documente-insolventa/16062025Convocator_CBC_Creative_Finance_diacritice.pdf"
+                            href="http://files.cbc-finance.ro/16062025Convocator_CBC_Creative_Finance_diacritice.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
