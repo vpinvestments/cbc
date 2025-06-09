@@ -109,7 +109,7 @@ export default function VotingDocumentationPage() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mt-4">
               <p className="text-sm text-slate-600">Download the official voting form for the creditors meeting.</p>
               <Button variant="outline" size="sm" asChild>
-                <a href="http://cbc-finance.ro/documente-insolventa/Buletin_de_Vot_CBC_Creative_Finance.docx" download>
+                <a href="http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx" download>
                   <Download className="h-4 w-4 mr-2" />
                   Download DOCX
                 </a>
