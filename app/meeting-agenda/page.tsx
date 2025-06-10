@@ -192,10 +192,10 @@ export default function MeetingAgendaPage() {
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Contact for Questions</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
                 For questions regarding the meeting agenda or procedures, please contact the administrator at{" "}
-                <a href="mailto:cbc@insolventasm.ro" className="text-blue-600 hover:text-blue-800 underline">
-                  cbc@insolventasm.ro
+                <a href="mailto:contact@cbc-finance.ro" className="text-blue-600 hover:text-blue-800 underline">
+                  contact@cbc-finance.ro
                 </a>{" "}
-                or call +4 0745.245.844. You can also contact the special administrator at{" "}
+                or call +4 0750 414 517. You can also contact the special administrator at{" "}
                 <a href="mailto:contact@cbc-finance.ro" className="text-blue-600 hover:text-blue-800 underline">
                   contact@cbc-finance.ro
                 </a>

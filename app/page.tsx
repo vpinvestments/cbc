@@ -494,7 +494,7 @@ export default function CBCInsolvencyPage() {
                     Cryptocurrency Investment Company
                   </span>
                   <span className="mx-2 h-1 w-1 rounded-full bg-slate-400 hidden sm:block"></span>
-                  <span className="text-xs text-slate-500 hidden sm:block">Est. 2020</span>
+                  <span className="text-xs text-slate-500 hidden sm:block">Founded 2019</span>
                 </div>
               </div>
             </div>
@@ -547,7 +547,7 @@ export default function CBCInsolvencyPage() {
             Important Notice - In Insolvency
           </AlertTitle>
           <AlertDescription className="text-red-700 dark:text-red-300 mt-2 text-sm sm:text-base leading-relaxed">
-            CBC Creative Finance Limited has entered into insolvency as of 16.10.2024. All trading activities have been
+            CBC Creative Finance SRL has entered into insolvency as of 16.10.2024. All trading activities have been
             suspended. This website provides information for creditors, investors, and other stakeholders regarding the
             insolvency process.
           </AlertDescription>
