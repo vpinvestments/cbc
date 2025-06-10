@@ -122,7 +122,7 @@ export default function VotingDocumentationPageRO() {
               </p>
               <Button variant="outline" size="sm" asChild>
                 <a
-                  href="http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx"
+                  href="https://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
