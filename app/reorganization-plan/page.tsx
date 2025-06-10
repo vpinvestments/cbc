@@ -72,7 +72,6 @@ export default function ReorganizationPlanPageEN() {
                 <li>Continuation of CBC Creative Finance SRL's activity as a viable entity in the market</li>
                 <li>Operational and financial restructuring of the company</li>
                 <li>Payment of debts to creditors according to a payment schedule</li>
-                <li>Preservation of jobs and accumulated expertise</li>
                 <li>Optimal utilization of assets and business potential</li>
               </ul>
             </div>
@@ -92,11 +91,8 @@ export default function ReorganizationPlanPageEN() {
                 claims:
               </p>
               <ul className="text-slate-600 text-xs sm:text-sm space-y-1 list-disc list-inside">
-                <li>Secured claims</li>
-                <li>Salary claims</li>
                 <li>Budget claims</li>
                 <li>Unsecured claims</li>
-                <li>Subordinated claims</li>
               </ul>
             </div>
 
