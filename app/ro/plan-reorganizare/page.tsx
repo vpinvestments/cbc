@@ -101,7 +101,7 @@ export default function ReorganizationPlanPage() {
               <p className="text-sm text-slate-600">Descărcați documentul complet al planului de reorganizare.</p>
               <Button variant="outline" size="sm" asChild>
                 <a
-                  href="https://files.cbc-finance.ro/Plan_Reorganizare_CBC_Creative_Finance.pdf"
+                  href="https://files.cbc-finance.ro/Plan_de_reorganizare_CBC_FINAL.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   download
@@ -213,7 +213,7 @@ export default function ReorganizationPlanPage() {
             <div className="border rounded-lg overflow-hidden bg-white">
               <div className="h-[600px] sm:h-[800px] w-full">
                 <iframe
-                  src="https://files.cbc-finance.ro/Plan_Reorganizare_CBC_Creative_Finance.pdf"
+                  src="https://files.cbc-finance.ro/Plan_de_reorganizare_CBC_FINAL.pdf"
                   className="w-full h-full border-0"
                   title="Plan de Reorganizare - CBC Creative Finance"
                 >
@@ -224,7 +224,7 @@ export default function ReorganizationPlanPage() {
                         <p className="text-slate-600 mb-2">Nu se poate afișa PDF în browser</p>
                         <Button variant="outline" asChild>
                           <a
-                            href="https://files.cbc-finance.ro/Plan_Reorganizare_CBC_Creative_Finance.pdf"
+                            href="https://files.cbc-finance.ro/Plan_de_reorganizare_CBC_FINAL.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
