@@ -8,6 +8,19 @@ import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function VotingDocumentationPage() {
+  const handleDownload = () => {
+    // Create a temporary link element
+    const link = document.createElement("a")
+    link.href = "http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx"
+    link.download = "Buletin_de_Vot_CBC_Creative_Finance.docx"
+    link.target = "_blank"
+
+    // Append to body, click, and remove
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 dark:text-slate-100">
       {/* Header */}
@@ -108,11 +121,9 @@ export default function VotingDocumentationPage() {
 
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mt-4">
               <p className="text-sm text-slate-600">Download the official voting form for the creditors meeting.</p>
-              <Button variant="outline" size="sm" asChild>
-                <a href="http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx" download>
-                  <Download className="h-4 w-4 mr-2" />
-                  Download DOCX
-                </a>
+              <Button variant="outline" size="sm" onClick={handleDownload}>
+                <Download className="h-4 w-4 mr-2" />
+                Download DOCX
               </Button>
             </div>
           </CardContent>
@@ -143,10 +154,19 @@ export default function VotingDocumentationPage() {
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Typical Voting Matters</h4>
               <ul className="text-slate-600 text-xs sm:text-sm space-y-1 list-disc list-inside">
                 <li>Presentation of the debtors situation as a result of requests received from creditors</li>
-                <li>Election of a new member of the Creditors Committee, considering the resignation request submitted by NV AGROEXPERT SRL.</li>
+                <li>
+                  Election of a new member of the Creditors Committee, considering the resignation request submitted by
+                  NV AGROEXPERT SRL.
+                </li>
                 <li>Approval of the replacement of the insolvency administrator INSOLVENȚA SM SPRL</li>
-                <li>Approval of the service offer of DMC INSOLV IPURL Craiova for taking over the role of insolvency administrator</li>
-                <li>Approval of the reorganization plan proposed by the special administrator, in collaboration with the creditors Drilea Costel Mihai, Vlăducă Ionuț, and Halasz Zoltan Tamas.</li>
+                <li>
+                  Approval of the service offer of DMC INSOLV IPURL Craiova for taking over the role of insolvency
+                  administrator
+                </li>
+                <li>
+                  Approval of the reorganization plan proposed by the special administrator, in collaboration with the
+                  creditors Drilea Costel Mihai, Vlăducă Ionuț, and Halasz Zoltan Tamas.
+                </li>
               </ul>
             </div>
 

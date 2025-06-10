@@ -9,6 +9,19 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { LanguageSwitcher } from "@/components/language-switcher"
 
 export default function VotingDocumentationPageRO() {
+  const handleDownload = () => {
+    // Create a temporary link element
+    const link = document.createElement("a")
+    link.href = "http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx"
+    link.download = "Buletin_de_Vot_CBC_Creative_Finance.docx"
+    link.target = "_blank"
+
+    // Append to body, click, and remove
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 dark:text-slate-100">
       {/* Header */}
@@ -94,7 +107,10 @@ export default function VotingDocumentationPageRO() {
                 <li>Completați toate câmpurile obligatorii inclusiv informațiile creditorului</li>
                 <li>Marcați clar voturile pentru fiecare punct din agendă</li>
                 <li>Semnați și datați formularul conform cerințelor</li>
-                <li>Depuneți formularul prin email, la contact@cbc-finance.ro si cbc@insolventasm.ro, cu cel putin 24h inainte de intalnire.</li>
+                <li>
+                  Depuneți formularul prin email, la contact@cbc-finance.ro si cbc@insolventasm.ro, cu cel putin 24h
+                  inainte de intalnire.
+                </li>
               </ul>
             </div>
 
@@ -112,11 +128,9 @@ export default function VotingDocumentationPageRO() {
               <p className="text-sm text-slate-600">
                 Descărcați formularul oficial de vot pentru adunarea creditorilor.
               </p>
-              <Button variant="outline" size="sm" asChild>
-                <a href="http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx" download>
-                  <Download className="h-4 w-4 mr-2" />
-                  Descarcă DOCX
-                </a>
+              <Button variant="outline" size="sm" onClick={handleDownload}>
+                <Download className="h-4 w-4 mr-2" />
+                Descarcă DOCX
               </Button>
             </div>
           </CardContent>
@@ -144,13 +158,20 @@ export default function VotingDocumentationPageRO() {
             </div>
 
             <div className="space-y-2">
-              <h4 className="font-medium text-slate-900 text-sm sm:text-base">Punctele cheie ale sedintei din data de 16.06.2025</h4>
+              <h4 className="font-medium text-slate-900 text-sm sm:text-base">
+                Punctele cheie ale sedintei din data de 16.06.2025
+              </h4>
               <ul className="text-slate-600 text-xs sm:text-sm space-y-1 list-disc list-inside">
                 <li>Prezentarea situatiei debitorului</li>
                 <li>Alegerea unui nou membru in Comitetul Creditorilor</li>
                 <li>Aprobarea inlocuirii administratorului judiciar Insolventa SM SPRL </li>
-                <li>Aprobarea ofertei de servicii a DMC INSOLV IPURL Craiova pentru functia de Administrator Judiciar</li>
-                <li>Aprobarea planului de reorganizare propus de administratorul special, impreuna cu creditorii Drilea Costel Mihai, Vladuca Ionut si Halasz Zoltan Tamas</li>
+                <li>
+                  Aprobarea ofertei de servicii a DMC INSOLV IPURL Craiova pentru functia de Administrator Judiciar
+                </li>
+                <li>
+                  Aprobarea planului de reorganizare propus de administratorul special, impreuna cu creditorii Drilea
+                  Costel Mihai, Vladuca Ionut si Halasz Zoltan Tamas
+                </li>
               </ul>
             </div>
 
@@ -165,9 +186,8 @@ export default function VotingDocumentationPageRO() {
             <div className="space-y-2">
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Vot prin Procură</h4>
               <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
-                Dacă nu puteți participa personal la întâlnire, puteți autoriza o altă persoană să
-                voteze în numele dumneavoastră. Contactați administratorul pentru cerințele specifice de procură și
-                proceduri.
+                Dacă nu puteți participa personal la întâlnire, puteți autoriza o altă persoană să voteze în numele
+                dumneavoastră. Contactați administratorul pentru cerințele specifice de procură și proceduri.
               </p>
             </div>
           </CardContent>
