@@ -9,16 +9,8 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function VotingDocumentationPage() {
   const handleDownload = () => {
-    // Create a temporary link element
-    const link = document.createElement("a")
-    link.href = "http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx"
-    link.download = "Buletin_de_Vot_CBC_Creative_Finance.docx"
-    link.target = "_blank"
-
-    // Append to body, click, and remove
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+    // Simple direct link approach
+    window.open("http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx", "_blank")
   }
 
   return (
