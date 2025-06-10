@@ -657,7 +657,7 @@ export default function CBCInsolvencyPage() {
               <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
                 <a href="/creditor-claims">
                   <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Submit Creditor Claim
+                  Final Creditors Table
                 </a>
               </Button>
             </CardContent>
