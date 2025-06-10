@@ -74,7 +74,6 @@ export default function ReorganizationPlanPage() {
                 <li>Continuarea activității CBC Creative Finance SRL ca entitate viabilă pe piață</li>
                 <li>Restructurarea operațională și financiară a companiei</li>
                 <li>Achitarea datoriilor către creditori conform unui program de plată</li>
-                <li>Păstrarea locurilor de muncă și a expertizei acumulate</li>
                 <li>Valorificarea optimă a activelor și a potențialului de afaceri</li>
               </ul>
             </div>
@@ -93,11 +92,8 @@ export default function ReorganizationPlanPage() {
                 Conform Legii 85/2014, planul prevede tratamentul distinct pentru următoarele categorii de creanțe:
               </p>
               <ul className="text-slate-600 text-xs sm:text-sm space-y-1 list-disc list-inside">
-                <li>Creanțe garantate</li>
-                <li>Creanțe salariale</li>
                 <li>Creanțe bugetare</li>
                 <li>Creanțe chirografare</li>
-                <li>Creanțe subordonate</li>
               </ul>
             </div>
 
@@ -134,7 +130,7 @@ export default function ReorganizationPlanPage() {
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Măsuri Operaționale</h4>
               <ul className="text-slate-600 text-xs sm:text-sm space-y-1 list-disc list-inside">
                 <li>Restructurarea activității companiei și concentrarea pe segmentele profitabile</li>
-                <li>Optimizarea structurii de personal și a costurilor operaționale</li>
+                <li>Optimizarea structurii tehnice și a costurilor operaționale</li>
                 <li>Implementarea unui sistem de management financiar și operațional eficient</li>
                 <li>Dezvoltarea de noi produse și servicii adaptate cerințelor pieței</li>
               </ul>
@@ -262,7 +258,7 @@ export default function ReorganizationPlanPage() {
             <div className="space-y-2">
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Administrator Special</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
-                Cristian Pricop
+                Cristian F. Pricop
                 <br />
                 Email:{" "}
                 <a href="mailto:c.pricop@cbc-finance.ro" className="text-blue-600 hover:text-blue-800 underline">
