@@ -115,7 +115,7 @@ export default function VotingDocumentationPage() {
               <p className="text-sm text-slate-600">Download the official voting form for the creditors meeting.</p>
               <Button variant="outline" size="sm" asChild>
                 <a
-                  href="http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx"
+                  href="https://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

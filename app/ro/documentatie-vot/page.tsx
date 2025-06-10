@@ -11,7 +11,7 @@ import { LanguageSwitcher } from "@/components/language-switcher"
 export default function VotingDocumentationPageRO() {
   const handleDownload = () => {
     // Simple direct link approach
-    window.open("http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx", "_blank")
+    window.open("https://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx", "_blank")
   }
 
   return (
