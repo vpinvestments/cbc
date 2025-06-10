@@ -108,7 +108,7 @@ export default function VotingDocumentationPageRO() {
 
             <div className="space-y-2">
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Metode de Vot</h4>
-              <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              <p className="text-red-600 text-xs sm:text-sm leading-relaxed font-bold">
                 Votarea se poate face doar prin email și trebuie depusă cu cel puțin 24 de ore înainte de întâlnire.
                 Voturile trebuie trimise la ambele adrese email ale administratorului: <b>contact@cbc-finance.ro</b> și{" "}
                 <b>cbc@insolventasm.ro</b>. Trebuie să includeți o copie a documentului de identitate al creditorului

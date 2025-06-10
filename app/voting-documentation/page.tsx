@@ -103,7 +103,7 @@ export default function VotingDocumentationPage() {
 
             <div className="space-y-2">
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Voting Methods</h4>
-              <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              <p className="text-red-600 text-xs sm:text-sm leading-relaxed font-bold">
                 Voting can only be conducted via email and must be submitted at least 24 hours before the meeting. Votes
                 must be sent to both administrator email addresses: <b>contact@cbc-finance.ro</b> and{" "}
                 <b>cbc@insolventasm.ro</b>. You must include a copy of your creditor identity document along with your

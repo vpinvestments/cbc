@@ -111,7 +111,7 @@ export default function LegalDocumentsPageRO() {
               </div>
               <Button variant="outline" size="sm" asChild>
                 <a
-                  href="https://cbc-finance.ro/documente-insolventa/legea-nr-85-2014-privind-procedurile-de-prevenire-a-insolventei-si-de-insolventa.pdf"
+                  href="https://files.cbc-finance.ro/legea-nr-85-2014-privind-procedurile-de-prevenire-a-insolventei-si-de-insolventa.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -125,7 +125,7 @@ export default function LegalDocumentsPageRO() {
             <div className="border rounded-lg overflow-hidden bg-white">
               <div className="h-[600px] sm:h-[800px] w-full">
                 <iframe
-                  src="https://cbc-finance.ro/documente-insolventa/legea-nr-85-2014-privind-procedurile-de-prevenire-a-insolventei-si-de-insolventa.pdf"
+                  src="https://files.cbc-finance.ro/legea-nr-85-2014-privind-procedurile-de-prevenire-a-insolventei-si-de-insolventa.pdf"
                   className="w-full h-full border-0"
                   title="Legea nr. 85/2014 - Procedurile de Prevenire a Insolvenței și de Insolvență"
                 >
