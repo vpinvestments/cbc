@@ -277,8 +277,8 @@ export default function VotingDocumentationPageRO() {
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Contact Administrator</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
                 Email:{" "}
-                <a href="mailto:cbc@insolventasm.ro" className="text-blue-600 hover:text-blue-800 underline">
-                  cbc@insolventasm.ro
+                <a href="mailto:contact@cbc-finance.ro" className="text-blue-600 hover:text-blue-800 underline">
+                  contact@cbc-finance.ro
                 </a>
                 <br />
                 Telefon: +40 750 414 517

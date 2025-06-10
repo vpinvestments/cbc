@@ -175,11 +175,11 @@ export default function BPIReportPageRO() {
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Informații de Contact</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
                 Pentru întrebări privind această publicație sau viitoarea întâlnire, vă rugăm să contactați
-                administratorul la{" "}
-                <a href="mailto:cbc@insolventasm.ro" className="text-blue-600 hover:text-blue-800 underline">
-                  cbc@insolventasm.ro
+                administratorul special la{" "}
+                <a href="mailto:contact@cbc-finance.ro" className="text-blue-600 hover:text-blue-800 underline">
+                  contact@cbc-finance.ro
                 </a>{" "}
-                sau sunați la +4 0745.245.844.
+                sau sunați la +4 0750 414 517.
               </p>
             </div>
 

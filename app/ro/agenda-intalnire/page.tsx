@@ -181,7 +181,7 @@ export default function MeetingAgendaPageRO() {
                 <li>Examinați documentul agendei complete cu atenție</li>
                 <li>Asigurați-vă că creanța dumneavoastră de creditor a fost depusă și verificată corespunzător</li>
                 <li>Descărcați și completați formularul de vot dacă intenționați să votați asupra oricăror aspecte</li>
-                <li>Pregătiți orice întrebări sau preocupări pe care doriți să le ridicați în timpul întâlnirii</li>
+                <li>Pregătiți orice întrebări sau preocupări pe care doriți să le ridicați, apoi trimiteti-le pe email, la contact@cbc-finance.ro si cbc@insolventasm.ro pentru a putea primi raspuns in cadrul intalnirii creditorilor.</li>
                 <li>Testați conexiunea Microsoft Teams și configurarea audio/video</li>
               </ul>
             </div>
@@ -198,7 +198,7 @@ export default function MeetingAgendaPageRO() {
             <div className="space-y-2">
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Contact pentru Întrebări</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
-                Pentru întrebări privind agenda întâlnirii sau procedurile, vă rugăm să contactați administratorul la{" "}
+                Pentru întrebări privind agenda întâlnirii sau procedurile, vă rugăm să contactați administratorul special la{" "}
                 <a href="mailto:cbc@insolventasm.ro" className="text-blue-600 hover:text-blue-800 underline">
                   cbc@insolventasm.ro
                 </a>{" "}

@@ -494,7 +494,7 @@ export default function CBCInsolvencyPageRO() {
                     Companie de Investiții în Criptomonede
                   </span>
                   <span className="mx-2 h-1 w-1 rounded-full bg-slate-400 hidden sm:block"></span>
-                  <span className="text-xs text-slate-500 hidden sm:block">Înființată 2020</span>
+                  <span className="text-xs text-slate-500 hidden sm:block">Înființată 2019</span>
                 </div>
               </div>
             </div>
@@ -547,7 +547,7 @@ export default function CBCInsolvencyPageRO() {
             Anunț Important - În Insolvență
           </AlertTitle>
           <AlertDescription className="text-red-700 dark:text-red-300 mt-2 text-sm sm:text-base leading-relaxed">
-            CBC Creative Finance Limited a intrat în insolvență începând cu data de 16.10.2024. Toate activitățile de
+            CBC Creative Finance SRL a intrat în insolvență începând cu data de 16.10.2024. Toate activitățile de
             tranzacționare au fost suspendate. Acest site web oferă informații pentru creditori, investitori și alte
             părți interesate cu privire la procesul de insolvență.
           </AlertDescription>
