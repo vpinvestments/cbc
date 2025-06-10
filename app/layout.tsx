@@ -1,6 +1,8 @@
 import type React from "react"
 import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Analytics } from "@vercel/analytics/react"
+import { Suspense } from "react"
 
 export const metadata = {
   title: "CBC Creative Finance - Insolvency Information",
@@ -13,8 +15,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          {children}
+          <Suspense>{children}</Suspense>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
