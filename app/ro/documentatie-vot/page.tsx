@@ -120,10 +120,20 @@ export default function VotingDocumentationPageRO() {
               <p className="text-sm text-slate-600">
                 Descărcați formularul oficial de vot pentru adunarea creditorilor.
               </p>
-              <Button variant="outline" size="sm" onClick={handleDownload}>
-                <Download className="h-4 w-4 mr-2" />
-                Descarcă DOCX
+              <Button variant="outline" size="sm" asChild>
+                <a
+                  href="http://files.cbc-finance.ro/Buletin_de_Vot_CBC_Creative_Finance.docx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Download className="h-4 w-4 mr-2" />
+                  Descarcă DOCX
+                </a>
               </Button>
+            </div>
+            <div className="mt-2 text-xs text-slate-500 text-center">
+              Dacă descărcarea nu pornește automat, faceți clic dreapta pe butonul de mai sus și selectați "Salvează
+              linkul ca..." sau "Salvează ținta ca..."
             </div>
           </CardContent>
         </Card>
