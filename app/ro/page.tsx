@@ -619,22 +619,22 @@ export default function CBCInsolvencyPageRO() {
           <Card>
             <CardHeader className="pb-3 sm:pb-6">
               <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
-                <Users className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 flex-shrink-0" />
-                <span>Pentru Investitori</span>
+                <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 flex-shrink-0" />
+                <span>Plan de Reorganizare</span>
               </CardTitle>
               <CardDescription className="text-xs sm:text-sm">
-                Informații și resurse pentru investitorii actuali
+                Conform Legii 85/2014 privind procedurile de insolvență
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-3">
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Dacă sunteți un investitor cu CBC Creative Finance, vă rugăm să consultați rapoartele administratorului
-                și informațiile de contact de mai jos.
+                Planul de reorganizare asigură continuitatea activității CBC Creative Finance SRL și plata creditorilor
+                conform prevederilor legale.
               </p>
               <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
-                <a href="/ro/rapoarte">
+                <a href="/ro/plan-reorganizare">
                   <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Vezi Informații Investitori
+                  Vizualizează Planul de Reorganizare
                 </a>
               </Button>
             </CardContent>

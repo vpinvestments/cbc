@@ -619,22 +619,22 @@ export default function CBCInsolvencyPage() {
           <Card>
             <CardHeader className="pb-3 sm:pb-6">
               <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
-                <Users className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 flex-shrink-0" />
-                <span>For Investors</span>
+                <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 flex-shrink-0" />
+                <span>Reorganization Plan</span>
               </CardTitle>
               <CardDescription className="text-xs sm:text-sm">
-                Information and resources for current investors
+                In accordance with Law 85/2014 on insolvency procedures
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-3">
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                If you are an investor with CBC Creative Finance, please review the administrator's reports and contact
-                information below.
+                The reorganization plan ensures the continuity of CBC Creative Finance SRL's business and payment to
+                creditors in accordance with legal provisions.
               </p>
               <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
-                <a href="/reports">
+                <a href="/reorganization-plan">
                   <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  View Investor Information
+                  View Reorganization Plan
                 </a>
               </Button>
             </CardContent>
