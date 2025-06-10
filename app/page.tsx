@@ -616,7 +616,7 @@ export default function CBCInsolvencyPage() {
 
         {/* Key Information Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
-          <Card>
+          <Card className="flex flex-col">
             <CardHeader className="pb-3 sm:pb-6">
               <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
                 <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 flex-shrink-0" />
@@ -626,21 +626,23 @@ export default function CBCInsolvencyPage() {
                 In accordance with Law 85/2014 on insolvency procedures
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-3">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <CardContent className="space-y-3 flex-grow flex flex-col">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
                 The reorganization plan ensures the continuity of CBC Creative Finance SRL's business and payment to
                 creditors in accordance with legal provisions.
               </p>
-              <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
-                <a href="/reorganization-plan">
-                  <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  View Reorganization Plan
-                </a>
-              </Button>
+              <div className="pt-2">
+                <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a href="/reorganization-plan">
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    View Reorganization Plan
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="flex flex-col">
             <CardHeader className="pb-3 sm:pb-6">
               <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
                 <Building className="h-4 w-4 sm:h-5 sm:w-5 text-green-600 flex-shrink-0" />
@@ -650,20 +652,22 @@ export default function CBCInsolvencyPage() {
                 Creditor claims and administration process
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-3">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <CardContent className="space-y-3 flex-grow flex flex-col">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
                 Creditors should submit their claims through the official administration process.
               </p>
-              <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
-                <a href="/creditor-claims">
-                  <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Final Creditors Table
-                </a>
-              </Button>
+              <div className="pt-2">
+                <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a href="/creditor-claims">
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    Final Creditors Table
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
 
-          <Card className="sm:col-span-2 lg:col-span-1">
+          <Card className="sm:col-span-2 lg:col-span-1 flex flex-col">
             <CardHeader className="pb-3 sm:pb-6">
               <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
                 <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600 flex-shrink-0" />
@@ -671,16 +675,18 @@ export default function CBCInsolvencyPage() {
               </CardTitle>
               <CardDescription className="text-xs sm:text-sm">Official notices and court documents</CardDescription>
             </CardHeader>
-            <CardContent className="space-y-3">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <CardContent className="space-y-3 flex-grow flex flex-col">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
                 Access official administration documents, court orders, and legal notices.
               </p>
-              <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
-                <a href="/legal-documents">
-                  <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  View Documents
-                </a>
-              </Button>
+              <div className="pt-2">
+                <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a href="/legal-documents">
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    View Documents
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>

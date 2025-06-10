@@ -616,7 +616,7 @@ export default function CBCInsolvencyPageRO() {
 
         {/* Key Information Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
-          <Card>
+          <Card className="flex flex-col">
             <CardHeader className="pb-3 sm:pb-6">
               <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
                 <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 flex-shrink-0" />
@@ -626,21 +626,23 @@ export default function CBCInsolvencyPageRO() {
                 Conform Legii 85/2014 privind procedurile de insolvență
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-3">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <CardContent className="space-y-3 flex-grow flex flex-col">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
                 Planul de reorganizare asigură continuitatea activității CBC Creative Finance SRL și plata creditorilor
                 conform prevederilor legale.
               </p>
-              <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
-                <a href="/ro/plan-reorganizare">
-                  <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Vizualizează Planul de Reorganizare
-                </a>
-              </Button>
+              <div className="pt-2">
+                <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a href="/ro/plan-reorganizare">
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    Vizualizează Planul de Reorganizare
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="flex flex-col">
             <CardHeader className="pb-3 sm:pb-6">
               <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
                 <Building className="h-4 w-4 sm:h-5 sm:w-5 text-green-600 flex-shrink-0" />
@@ -650,20 +652,22 @@ export default function CBCInsolvencyPageRO() {
                 Creanțe creditori și procesul de administrare
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-3">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <CardContent className="space-y-3 flex-grow flex flex-col">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
                 Creditorii trebuie să își depună creanțele prin procesul oficial de administrare.
               </p>
-              <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
-                <a href="/ro/creante-creditori">
-                  <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Tabel Definitiv de Creante
-                </a>
-              </Button>
+              <div className="pt-2">
+                <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a href="/ro/creante-creditori">
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    Tabel Definitiv de Creante
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
 
-          <Card className="sm:col-span-2 lg:col-span-1">
+          <Card className="sm:col-span-2 lg:col-span-1 flex flex-col">
             <CardHeader className="pb-3 sm:pb-6">
               <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
                 <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600 flex-shrink-0" />
@@ -671,16 +675,18 @@ export default function CBCInsolvencyPageRO() {
               </CardTitle>
               <CardDescription className="text-xs sm:text-sm">Anunțuri oficiale și documente instanță</CardDescription>
             </CardHeader>
-            <CardContent className="space-y-3">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <CardContent className="space-y-3 flex-grow flex flex-col">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
                 Accesați documentele oficiale de administrare, ordinele instanței și anunțurile legale.
               </p>
-              <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
-                <a href="/ro/documente-legale">
-                  <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Vezi Documente
-                </a>
-              </Button>
+              <div className="pt-2">
+                <Button variant="outline" className="w-full h-10 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a href="/ro/documente-legale">
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    Vezi Documente
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>
