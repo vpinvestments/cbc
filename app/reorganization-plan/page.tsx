@@ -123,7 +123,7 @@ export default function ReorganizationPlanPageEN() {
                 </Button>
                 <Button variant="outline" size="sm" asChild>
                   <a
-                    href="https://files.cbc-finance.ro/Declaratii_Plan_reorganizare_CBC.pdf"
+                    href="https://files.cbc-finance.ro/Convocator_CBC_Creative_Finance_diacritice.ENGLISH-Romanian.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     download
