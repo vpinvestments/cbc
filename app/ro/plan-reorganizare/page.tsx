@@ -97,19 +97,43 @@ export default function ReorganizationPlanPage() {
               </ul>
             </div>
 
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mt-4">
-              <p className="text-sm text-slate-600">Descărcați documentul complet al planului de reorganizare.</p>
-              <Button variant="outline" size="sm" asChild>
-                <a
-                  href="https://files.cbc-finance.ro/Plan_de_reorganizare_CBC_FINAL.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  download
-                >
-                  <Download className="h-4 w-4 mr-2" />
-                  Descarcă PDF
-                </a>
-              </Button>
+            <div className="space-y-4 mt-4">
+              <p className="text-sm text-slate-600">Descărcați documentele planului de reorganizare:</p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <Button variant="outline" size="sm" asChild>
+                  <a
+                    href="https://files.cbc-finance.ro/Plan_de_reorganizare_CBC_FINAL.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download
+                  >
+                    <Download className="h-4 w-4 mr-2" />
+                    Plan de Reorganizare
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a
+                    href="https://files.cbc-finance.ro/Anexa_Plan_reorganizare_CBC.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download
+                  >
+                    <Download className="h-4 w-4 mr-2" />
+                    Anexa la Plan
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a
+                    href="https://files.cbc-finance.ro/Declaratii_Plan_reorganizare_CBC.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download
+                  >
+                    <Download className="h-4 w-4 mr-2" />
+                    Declarații
+                  </a>
+                </Button>
+              </div>
             </div>
           </CardContent>
         </Card>
