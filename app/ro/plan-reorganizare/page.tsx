@@ -113,7 +113,7 @@ export default function ReorganizationPlanPage() {
                 </Button>
                 <Button variant="outline" size="sm" asChild>
                   <a
-                    href="https://files.cbc-finance.ro/Anexa_Plan_reorganizare_CBC.pdf"
+                    href="https://files.cbc-finance.ro/Contract-VP-CBC-Signed.PDF"
                     target="_blank"
                     rel="noopener noreferrer"
                     download
@@ -124,7 +124,7 @@ export default function ReorganizationPlanPage() {
                 </Button>
                 <Button variant="outline" size="sm" asChild>
                   <a
-                    href="https://files.cbc-finance.ro/Convocator_CBC_Creative_Finance_diacritice.ENGLISH-Romanian.pdf"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     download
