@@ -572,7 +572,7 @@ export default function CBCInsolvencyPage() {
                 <div className="text-blue-700 text-sm sm:text-base">
                   <p className="mb-1">Online via Microsoft Teams</p>
                   <a
-                    href="https://teams.microsoft.com/l/meetup-join/..."
+                    href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2FjYTVlNmEtOTBkZi00MWNjLWJiNDAtOGMxNDhlYzA4ZDBk%40thread.v2/0?context=%7b%22Tid%22%3a%223fc0ade6-caa5-4070-b5f1-5f50fc1d13aa%22%2c%22Oid%22%3a%22aaa03683-464a-4993-afb9-66cf9fa0556e%22%7d"
                     className="text-blue-600 hover:text-blue-800 underline text-xs sm:text-sm break-all"
                   >
                     Join Meeting Link
