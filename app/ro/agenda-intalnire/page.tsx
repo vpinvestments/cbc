@@ -74,7 +74,18 @@ export default function MeetingAgendaPageRO() {
               </div>
               <div className="space-y-2">
                 <h4 className="font-medium text-slate-900 text-sm sm:text-base">Format Întâlnire</h4>
-                <p className="text-slate-700 text-sm">Online prin Microsoft Teams</p>
+                <div className="space-y-1">
+                  <p className="text-slate-700 text-sm">Online prin Microsoft Teams</p>
+                  <Button variant="outline" size="sm" asChild>
+                    <a
+                      href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2FjYTVlNmEtOTBkZi00MWNjLWJiNDAtOGMxNDhlYzA4ZDBk%40thread.v2/0?context=%7b%22Tid%22%3a%223fc0ade6-caa5-4070-b5f1-5f50fc1d13aa%22%2c%22Oid%22%3a%22aaa03683-464a-4993-afb9-66cf9fa0556e%22%7d"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Alătură-te la Întâlnirea Teams
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
 
@@ -181,7 +192,11 @@ export default function MeetingAgendaPageRO() {
                 <li>Examinați documentul agendei complete cu atenție</li>
                 <li>Asigurați-vă că creanța dumneavoastră de creditor a fost depusă și verificată corespunzător</li>
                 <li>Descărcați și completați formularul de vot dacă intenționați să votați asupra oricăror aspecte</li>
-                <li>Pregătiți orice întrebări sau preocupări pe care doriți să le ridicați, apoi trimiteti-le pe email, la contact@cbc-finance.ro si cbc@insolventasm.ro pentru a putea primi raspuns in cadrul intalnirii creditorilor.</li>
+                <li>
+                  Pregătiți orice întrebări sau preocupări pe care doriți să le ridicați, apoi trimiteti-le pe email, la
+                  contact@cbc-finance.ro si cbc@insolventasm.ro pentru a putea primi raspuns in cadrul intalnirii
+                  creditorilor.
+                </li>
                 <li>Testați conexiunea Microsoft Teams și configurarea audio/video</li>
               </ul>
             </div>
@@ -198,7 +213,8 @@ export default function MeetingAgendaPageRO() {
             <div className="space-y-2">
               <h4 className="font-medium text-slate-900 text-sm sm:text-base">Contact pentru Întrebări</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
-                Pentru întrebări privind agenda întâlnirii sau procedurile, vă rugăm să contactați administratorul special la{" "}
+                Pentru întrebări privind agenda întâlnirii sau procedurile, vă rugăm să contactați administratorul
+                special la{" "}
                 <a href="mailto:cbc@insolventasm.ro" className="text-blue-600 hover:text-blue-800 underline">
                   cbc@insolventasm.ro
                 </a>{" "}

@@ -72,7 +72,18 @@ export default function MeetingAgendaPage() {
               </div>
               <div className="space-y-2">
                 <h4 className="font-medium text-slate-900 text-sm sm:text-base">Meeting Format</h4>
-                <p className="text-slate-700 text-sm">Online via Microsoft Teams</p>
+                <div className="space-y-1">
+                  <p className="text-slate-700 text-sm">Online via Microsoft Teams</p>
+                  <Button variant="outline" size="sm" asChild>
+                    <a
+                      href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2FjYTVlNmEtOTBkZi00MWNjLWJiNDAtOGMxNDhlYzA4ZDBk%40thread.v2/0?context=%7b%22Tid%22%3a%223fc0ade6-caa5-4070-b5f1-5f50fc1d13aa%22%2c%22Oid%22%3a%22aaa03683-464a-4993-afb9-66cf9fa0556e%22%7d"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Join Teams Meeting
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
 
