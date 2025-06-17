@@ -246,7 +246,7 @@ export default function SecurePageRO() {
                   </h4>
                   <div className="space-y-2">
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Centralizare%20Voturi%20Ordinea%20de%20zi%20Adunare%20Creditori%2016.06.2025.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Centralizar-Voturi-Ordinea-de-zi-Adunare-Creditori-16.06.2025.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -255,7 +255,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">312K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Discurs%20pentru%20Adunarea%20Creditorilor%20Cristian%20F%20Pricop%20Administrator%20Special.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Discurs-pentru-Adunarea-Creditorilor-Cristian-F-Pricop-Administrator-Special.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -264,7 +264,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">454K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Proces%20verbal%20al%20Adunarii%20Creditorilor%2016.06.2025.docx"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Proces-verbal-al-Adunarii-Creditorilor-16.06.2025.docx"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -282,7 +282,7 @@ export default function SecurePageRO() {
                   </h4>
                   <div className="space-y-2">
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Comunicare%20cu%20Adm%20Jud%20Privind%20Planul%20de%20Reorganizare.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Comunicare-cu-Adm-Jud-Privind-Planul-de-Reorganizare.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -291,7 +291,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">252K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada%20Trimitere%20Plan%20Reorganizare.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada-Trimitere-Plan-Reorganizare.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -300,7 +300,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">170K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Plan_de_reorganizare%20CBC%20CREATIVE%20FINANCE%20SRL.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Plan_de_reorganizare-CBC-CREATIVE-FINANCE-SRL.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -309,7 +309,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">2.0M</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Raport%20BPI%20Convocare%20Adunare%20Creditori%2016.06.2025.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Raport-BPI-Convocare-Adunare-Creditori-16.06.2025.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -327,7 +327,7 @@ export default function SecurePageRO() {
                   </h4>
                   <div className="space-y-2">
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Emailul%20Administratorului%20Judiciar%20catre%20creditori.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Emailul-Administratorului-Judiciar-catre-creditori.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -336,7 +336,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">278K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Anexa1%20Mail%20Administrator%20Judiciar%20CBC_informare%20creditori_12.06.2025.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Anexa1-Mail-Administrator-Judiciar-CBC_informare-creditori_12.06.2025.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -347,7 +347,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">476K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Anexa%202%20a%20Emailului%20Administratorului%20Judiciar%20catre%20Creditori%2012.06.2025.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Anexa-2-a-Emailului-Administratorului-Judiciar-catre-Creditori-12.06.2025.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -367,7 +367,7 @@ export default function SecurePageRO() {
                   </h4>
                   <div className="space-y-2">
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada%20Comunicare%20ANAF%20Email.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada-Comunicare-ANAF-Email.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -376,7 +376,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">170K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada%20Trimitere%20Plan%20Reorganizare.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada-Trimitere-Plan-Reorganizare.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -385,7 +385,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">170K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Extras%20BPI%2016.06.2025.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Extras-BPI-16.06.2025.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -394,7 +394,7 @@ export default function SecurePageRO() {
                       <span className="text-slate-500 ml-2">63K</span>
                     </a>
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Raspuns%20Anaf%20privind%20Adunarea%20Creditorilor%20din%2016.06.2025.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Raspuns-Anaf-privind-Adunarea-Creditorilor-din-16.06.2025.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
