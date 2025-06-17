@@ -224,6 +224,199 @@ export default function SecurePage() {
           </CardContent>
         </Card>
 
+        {/* Court Filing Documents Section */}
+        <Card className="mb-6 sm:mb-8 border-purple-200 bg-purple-50 dark:bg-purple-900/20 dark:border-purple-800">
+          <CardHeader className="pb-3 sm:pb-6">
+            <CardTitle className="flex items-center space-x-2 text-purple-800 text-base sm:text-lg">
+              <FileText className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
+              <span>Court Filing Documents</span>
+            </CardTitle>
+            <CardDescription className="text-xs sm:text-sm text-purple-700">
+              Official court submissions and legal filings - June 17, 2025
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+                {/* 1. The General Meeting of Creditors */}
+                <div className="space-y-2">
+                  <h4 className="font-semibold text-slate-900 text-sm mb-3 border-b border-purple-200 pb-2">
+                    1. The General Meeting of Creditors
+                  </h4>
+                  <div className="space-y-2">
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Centralizare%20Voturi%20Ordinea%20de%20zi%20Adunare%20Creditori%2016.06.2025.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Vote Centralization - Creditors Meeting Agenda 16.06.2025</span>
+                      <span className="text-slate-500 ml-2">312K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Discurs%20pentru%20Adunarea%20Creditorilor%20Cristian%20F%20Pricop%20Administrator%20Special.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Speech for Creditors Meeting - Special Administrator</span>
+                      <span className="text-slate-500 ml-2">454K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Proces%20verbal%20al%20Adunarii%20Creditorilor%2016.06.2025.docx"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Minutes of Creditors Meeting 16.06.2025</span>
+                      <span className="text-slate-500 ml-2">51K</span>
+                    </a>
+                  </div>
+                </div>
+
+                {/* 2. Communications with Judicial Administrator */}
+                <div className="space-y-2">
+                  <h4 className="font-semibold text-slate-900 text-sm mb-3 border-b border-purple-200 pb-2">
+                    2. Communications with Judicial Administrator
+                  </h4>
+                  <div className="space-y-2">
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Comunicare%20cu%20Adm%20Jud%20Privind%20Planul%20de%20Reorganizare.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Communication with Judicial Admin - Reorganization Plan</span>
+                      <span className="text-slate-500 ml-2">252K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada%20Trimitere%20Plan%20Reorganizare.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Proof of Reorganization Plan Submission</span>
+                      <span className="text-slate-500 ml-2">170K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Plan_de_reorganizare%20CBC%20CREATIVE%20FINANCE%20SRL.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Reorganization Plan - CBC CREATIVE FINANCE SRL</span>
+                      <span className="text-slate-500 ml-2">2.0M</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Raport%20BPI%20Convocare%20Adunare%20Creditori%2016.06.2025.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">BPI Report - Creditors Meeting Convocation 16.06.2025</span>
+                      <span className="text-slate-500 ml-2">608K</span>
+                    </a>
+                  </div>
+                </div>
+
+                {/* 3. Communications from Judicial Administrator to Creditors */}
+                <div className="space-y-2">
+                  <h4 className="font-semibold text-slate-900 text-sm mb-3 border-b border-purple-200 pb-2">
+                    3. Communications from Judicial Administrator to Creditors
+                  </h4>
+                  <div className="space-y-2">
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Emailul%20Administratorului%20Judiciar%20catre%20creditori.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Email from Judicial Administrator to Creditors</span>
+                      <span className="text-slate-500 ml-2">278K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Anexa1%20Mail%20Administrator%20Judiciar%20CBC_informare%20creditori_12.06.2025.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Annex 1 - Judicial Admin Mail - Creditor Information 12.06.2025</span>
+                      <span className="text-slate-500 ml-2">476K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Anexa%202%20a%20Emailului%20Administratorului%20Judiciar%20catre%20Creditori%2012.06.2025.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Annex 2 - Judicial Admin Email to Creditors 12.06.2025</span>
+                      <span className="text-slate-500 ml-2">285K</span>
+                    </a>
+                  </div>
+                </div>
+
+                {/* 4. Communications with the Fiscal Administration */}
+                <div className="space-y-2">
+                  <h4 className="font-semibold text-slate-900 text-sm mb-3 border-b border-purple-200 pb-2">
+                    4. Communications with the Fiscal Administration
+                  </h4>
+                  <div className="space-y-2">
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada%20Comunicare%20ANAF%20Email.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Proof of ANAF Communication - Email</span>
+                      <span className="text-slate-500 ml-2">170K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Dovada%20Trimitere%20Plan%20Reorganizare.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">Proof of Reorganization Plan Submission</span>
+                      <span className="text-slate-500 ml-2">170K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Extras%20BPI%2016.06.2025.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">BPI Extract 16.06.2025</span>
+                      <span className="text-slate-500 ml-2">63K</span>
+                    </a>
+                    <a
+                      href="https://files.cbc-finance.ro/depunere-instanta/Raspuns%20Anaf%20privind%20Adunarea%20Creditorilor%20din%2016.06.2025.pdf"
+                      className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="truncate">ANAF Response - Creditors Meeting 16.06.2025</span>
+                      <span className="text-slate-500 ml-2">48K</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-4 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-800">
+                <div className="flex items-start space-x-2">
+                  <AlertTriangle className="h-4 w-4 text-amber-600 dark:text-amber-400 mt-0.5 flex-shrink-0" />
+                  <div className="text-xs text-amber-800 dark:text-amber-300">
+                    <p className="font-medium mb-1">Document Access Notice</p>
+                    <p>
+                      These documents are official court filings submitted on June 17, 2025. All documents are
+                      confidential and subject to legal privilege. Access is restricted to authorized personnel only.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
         {/* Confidential Documents Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
           <Card className="flex flex-col border-amber-200 bg-amber-50 dark:bg-amber-900/20 dark:border-amber-800">
