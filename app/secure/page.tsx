@@ -245,7 +245,7 @@ export default function SecurePage() {
                   </h4>
                   <div className="space-y-2">
                     <a
-                      href="https://files.cbc-finance.ro/depunere-instanta/Centralizare-Voturi-Ordinea-de-zi-Adunare-Creditori-16.06.2025.pdf"
+                      href="https://files.cbc-finance.ro/depunere-instanta/Centralizar-Voturi-Ordinea-de-zi-Adunare-Creditori-16.06.2025.pdf"
                       className="flex items-center justify-between p-3 rounded bg-white dark:bg-slate-800 border border-purple-200 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors text-xs"
                       target="_blank"
                       rel="noopener noreferrer"
