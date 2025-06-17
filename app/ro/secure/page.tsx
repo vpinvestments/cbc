@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import { AlertTriangle, Lock, Eye, EyeOff, Building, FileText, Users, Phone, Mail } from "lucide-react"
+import { AlertTriangle, Lock, Eye, EyeOff, Building, FileText, Phone, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
@@ -424,85 +424,6 @@ export default function SecurePageRO() {
         </Card>
 
         {/* Confidential Documents Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
-          <Card className="flex flex-col border-amber-200 bg-amber-50 dark:bg-amber-900/20 dark:border-amber-800">
-            <CardHeader className="pb-3 sm:pb-6">
-              <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
-                <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-amber-600 flex-shrink-0" />
-                <span>Rapoarte Financiare Interne</span>
-              </CardTitle>
-              <CardDescription className="text-xs sm:text-sm">
-                Analize financiare detaliate și proiecții
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-3 flex-grow flex flex-col">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
-                Rapoarte financiare cuprinzătoare incluzând evaluări de active, proiecții de flux de numerar și estimări
-                de recuperare pentru creditori.
-              </p>
-              <div className="pt-2">
-                <Button
-                  variant="outline"
-                  className="w-full h-10 sm:h-auto text-xs sm:text-sm border-amber-300 text-amber-700 hover:bg-amber-100"
-                >
-                  <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Accesează Rapoartele Financiare
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="flex flex-col border-blue-200 bg-blue-50 dark:bg-blue-900/20 dark:border-blue-800">
-            <CardHeader className="pb-3 sm:pb-6">
-              <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
-                <Users className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 flex-shrink-0" />
-                <span>Comunicări cu Creditorii</span>
-              </CardTitle>
-              <CardDescription className="text-xs sm:text-sm">Corespondență privată și negocieri</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-3 flex-grow flex flex-col">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
-                Comunicări confidențiale cu creditorii majori, negocieri de soluționare și discuții strategice.
-              </p>
-              <div className="pt-2">
-                <Button
-                  variant="outline"
-                  className="w-full h-10 sm:h-auto text-xs sm:text-sm border-blue-300 text-blue-700 hover:bg-blue-100"
-                >
-                  <Users className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Vezi Comunicările
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="sm:col-span-2 lg:col-span-1 flex flex-col border-purple-200 bg-purple-50 dark:bg-purple-900/20 dark:border-purple-800">
-            <CardHeader className="pb-3 sm:pb-6">
-              <CardTitle className="flex items-center space-x-2 text-sm sm:text-base">
-                <Lock className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600 flex-shrink-0" />
-                <span>Documente Strategie Juridică</span>
-              </CardTitle>
-              <CardDescription className="text-xs sm:text-sm">
-                Produsul muncii avocaților și analize juridice
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-3 flex-grow flex flex-col">
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed flex-grow">
-                Documente juridice privilegiate, memorandumuri de strategie și analize juridice confidențiale legate de
-                procedurile de insolvență.
-              </p>
-              <div className="pt-2">
-                <Button
-                  variant="outline"
-                  className="w-full h-10 sm:h-auto text-xs sm:text-sm border-purple-300 text-purple-700 hover:bg-purple-100"
-                >
-                  <Lock className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
-                  Accesează Documentele Juridice
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
 
         {/* Administrator Contact - Secure */}
         <Card className="mb-6 sm:mb-8 border-slate-200 bg-slate-50 dark:bg-slate-800/50 dark:border-slate-700">
