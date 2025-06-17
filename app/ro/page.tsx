@@ -558,7 +558,7 @@ export default function CBCInsolvencyPageRO() {
           <CardHeader className="pb-3 sm:pb-6">
             <CardTitle className="flex items-center space-x-2 text-blue-800 text-base sm:text-lg">
               <Users className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
-              <span>Următoarea Adunare a Creditorilor</span>
+              <span>Adunarea Creditorilor - 16 iunie 2025</span>
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4 sm:space-y-6">
@@ -586,6 +586,35 @@ export default function CBCInsolvencyPageRO() {
               <p className="text-blue-700 text-sm leading-relaxed">
                 Meetingul se va desfășura doar online, la linkul de mai sus.
               </p>
+            </div>
+
+            <div>
+              <h4 className="font-medium text-blue-900 mb-2 text-sm sm:text-base">Statusul Întâlnirii</h4>
+              <p className="text-blue-700 text-sm leading-relaxed mb-4">
+                Adunarea creditorilor s-a încheiat. Vă rugăm să găsiți rezultatele și procesul verbal mai jos.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h4 className="font-medium text-blue-900 text-sm sm:text-base">Rezultatele Întâlnirii</h4>
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <Button variant="outline" className="flex-1 h-11 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a
+                    href="https://files.cbc-finance.ro/Centralizator-Voturi.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    <span className="truncate">Rezultate Vot</span>
+                  </a>
+                </Button>
+                <Button variant="outline" className="flex-1 h-11 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a href="https://files.cbc-finance.ro/PV-AC-16062025.pdf" target="_blank" rel="noopener noreferrer">
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    <span className="truncate">Proces Verbal</span>
+                  </a>
+                </Button>
+              </div>
             </div>
 
             <div className="space-y-3">

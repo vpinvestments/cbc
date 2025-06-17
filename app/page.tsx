@@ -558,7 +558,7 @@ export default function CBCInsolvencyPage() {
           <CardHeader className="pb-3 sm:pb-6">
             <CardTitle className="flex items-center space-x-2 text-blue-800 text-base sm:text-lg">
               <Users className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
-              <span>Next Creditors Meeting</span>
+              <span>Creditors Meeting - June 16, 2025</span>
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4 sm:space-y-6">
@@ -586,6 +586,35 @@ export default function CBCInsolvencyPage() {
               <p className="text-blue-700 text-sm leading-relaxed">
                 Only virtual attendance is available. To attend, visit the link above at the meeting time.
               </p>
+            </div>
+
+            <div>
+              <h4 className="font-medium text-blue-900 mb-2 text-sm sm:text-base">Meeting Status</h4>
+              <p className="text-blue-700 text-sm leading-relaxed mb-4">
+                The creditors meeting has concluded. Please find the results and minutes below.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h4 className="font-medium text-blue-900 text-sm sm:text-base">Meeting Results</h4>
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <Button variant="outline" className="flex-1 h-11 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a
+                    href="https://files.cbc-finance.ro/Centralizator-Voturi.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    <span className="truncate">Voting Results</span>
+                  </a>
+                </Button>
+                <Button variant="outline" className="flex-1 h-11 sm:h-auto text-xs sm:text-sm" asChild>
+                  <a href="https://files.cbc-finance.ro/PV-AC-16062025.pdf" target="_blank" rel="noopener noreferrer">
+                    <FileText className="h-3 w-3 sm:h-4 sm:w-4 mr-2 flex-shrink-0" />
+                    <span className="truncate">Meeting Minutes</span>
+                  </a>
+                </Button>
+              </div>
             </div>
 
             <div className="space-y-3">
